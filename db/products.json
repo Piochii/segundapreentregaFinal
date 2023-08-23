@@ -1,0 +1,125 @@
+[
+  {
+    "title": "Pruducto 1",
+    "description": "Producto agregado desde postman",
+    "category": "Product example",
+    "price": "1000",
+    "status": "true",
+    "stock": "1",
+    "code": "1",
+    "thumbnail": [
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692431948797-Elegant Initial Jewelry Logo-2.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692431948798-Elegant Initial Jewelry Logo-3.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692431948811-FB_IMG_1680035272341.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692431948812-FB_IMG_1682989258584.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692431948821-FB_IMG_1683489565616.jpg"
+    ],
+    "id": 1
+  },
+  {
+    "title": "Pruducto 3",
+    "description": "Producto agregado desde postman",
+    "category": "Product example",
+    "price": "1000",
+    "status": "true",
+    "stock": "1",
+    "code": "3",
+    "thumbnail": [
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432022324-Elegant Initial Jewelry Logo-2.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432022325-Elegant Initial Jewelry Logo-3.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432022326-FB_IMG_1680035272341.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432022327-FB_IMG_1682989258584.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432022333-FB_IMG_1683489565616.jpg"
+    ],
+    "id": 3
+  },
+  {
+    "title": "Pruducto 4",
+    "description": "Producto agregado desde postman",
+    "category": "Product example",
+    "price": "1000",
+    "status": "true",
+    "stock": "1",
+    "code": "4",
+    "thumbnail": [
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432054564-Elegant Initial Jewelry Logo-2.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432054566-Elegant Initial Jewelry Logo-3.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432054567-FB_IMG_1680035272341.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432054568-FB_IMG_1682989258584.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432054575-FB_IMG_1683489565616.jpg"
+    ],
+    "id": 4
+  },
+  {
+    "title": "Pruducto 5",
+    "description": "Producto agregado desde postman",
+    "category": "Product example",
+    "price": "1000",
+    "status": "true",
+    "stock": "1",
+    "code": "5",
+    "thumbnail": [
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432079712-Elegant Initial Jewelry Logo-2.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432079713-Elegant Initial Jewelry Logo-3.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432079714-FB_IMG_1680035272341.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432079716-FB_IMG_1682989258584.jpg",
+      "C:\\Users\\andre\\OneDrive\\Escritorio\\comision_55535\\entregas\\desafio-5\\src\\public\\uploads\\1692432079718-FB_IMG_1683489565616.jpg"
+    ],
+    "id": 5
+  },
+  {
+    "title": "Producto 6",
+    "price": "1000",
+    "code": "6",
+    "stock": "1",
+    "category": "Product example",
+    "description": "Producto agregado desde html",
+    "status": "true",
+    "thumbnail": "C:\\fakepath\\FB_IMG_1683489565616.jpg",
+    "id": 6
+  },
+  {
+    "title": "Producto 7",
+    "price": "1000",
+    "code": "7",
+    "stock": "1",
+    "category": "Product example",
+    "description": "Producto agregado desde html",
+    "status": "true",
+    "thumbnail": "C:\\fakepath\\FB_IMG_1683489565616.jpg",
+    "id": 7
+  },
+  {
+    "title": "Producto 8",
+    "price": "1000",
+    "code": "8",
+    "stock": "1",
+    "category": "Product example",
+    "description": "Producto agregado desde html",
+    "status": "true",
+    "thumbnail": "C:\\fakepath\\FB_IMG_1683489565616.jpg",
+    "id": 8
+  },
+  {
+    "title": "Producto 9",
+    "price": "1000",
+    "code": "9",
+    "stock": "1",
+    "category": "Product example",
+    "description": "Producto agregado desde html",
+    "status": "true",
+    "thumbnail": "C:\\fakepath\\FB_IMG_1683489565616.jpg",
+    "id": 9
+  },
+  {
+    "title": "Producto 10",
+    "price": "1000",
+    "code": "10",
+    "stock": "1",
+    "category": "Product example",
+    "description": "Producto agregado desde html",
+    "status": "true",
+    "thumbnail": "C:\\fakepath\\FB_IMG_1683489565616.jpg",
+    "id": 10
+  }
+]

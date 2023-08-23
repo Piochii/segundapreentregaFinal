@@ -1,0 +1,29 @@
+<div class="prueba">
+    <h1>
+        {{title}}
+    </h1>
+</div>
+<div class="d-flex justify-">
+    {{#if products.length }}
+    <table class="estilo">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Image</th>
+        </tr>
+        {{#each products}}
+            <tr>
+                <td>{{this.title}}</td>
+                <td>{{this.price}}</td>
+                <td><img
+                        class="img"
+                        src="{{this.thumbnail}}"
+                        alt="imagen del producto"
+                    /></td>
+            </tr>
+        {{/each}}
+    </table>
+{{else}}
+    <h3>No hay productos agregados!</h3>
+{{/if}}
+</div>

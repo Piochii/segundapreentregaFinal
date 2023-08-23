@@ -1,0 +1,74 @@
+<div class="text-center">
+    <h1>
+        {{title}}
+    </h1>
+</div>
+<div>
+    {{#if products.length }}
+    <table id="tableProduct" class="table table-striped table-dark">
+        <thead>
+            <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">code</th>
+            <th scope="col">stock</th>
+            <th scope="col">category</th>
+            <th scope="col">description</th>
+            <th scope="col">status</th>
+            <th scope="col">thumbnail</th>
+            </tr>
+        </thead>
+        {{#each products}}
+            <tbody>
+                <tr>
+                <td>{{this.id}}</td>
+                <td>{{this.title}}</td>
+                <td>{{this.price}}</td>
+                <td>{{this.code}}</td>
+                <td>{{this.stock}}</td>
+                <td>{{this.category}}</td>
+                <td>{{this.description}}</td>
+                <td>{{this.status}}</td>
+                <td><img
+                        class="img"
+                        src="{{this.thumbnail}}"
+                        alt="imagen del producto"
+                /></td>
+                </tr>
+            </tbody>
+        {{/each}}
+        </table>
+        {{else}}
+            <h3>No hay productos agregados!</h3>
+        {{/if}}
+</div>
+<div class="row d-flex justify-content-around">
+    <div class="col-md-3 d-inline-flex p-2">
+        <form id="formDelete" class="card card-body rounded-0 text-center">
+            <h3 class="mb-5">Delete a Product</h3>
+            <input type="number" required id="deleteProd" name="deleteProd" placeholder="Ingrese el id" class="form-control rounded-0 mb-3">
+            <input class="btn btn-dark rounded-0 mb-3" type="submit" value="Eliminar">
+        </form>
+    </div>
+    <div class="col-md-7 d-inline-flex p-2">
+        <form id="addProduct" class="card card-body rounded-0 text-center" method="POST" action="/realTimeProducts" enctype="multipart/form-data">
+            <h3 class="mb-5">Add a Product</h3>
+            <input type="text" required id="title" name="title" placeholder="Ingrese el nombre" class="form-control rounded-0 mb-3">
+            <input type="number" required id="price" name="price" placeholder="Ingrese el precio" class="form-control rounded-0 mb-3">
+            <input type="text" required id="code" name="code" placeholder="Ingrese el code" class="form-control rounded-0 mb-3">
+            <input type="number" required id="stock" name="stock" placeholder="Ingrese el stock" class="form-control rounded-0 mb-3">
+            <input type="text" required id="category" name="categoty" placeholder="Ingrese la categoria" class="form-control rounded-0 mb-3">
+            <input type="text" required id="description" name="description" placeholder="Ingrese la descripcion" class="form-control rounded-0 mb-3">
+            <label class="switch">
+                <input type="checkbox" name="status" id="status" value="true">
+                <span class="slider"></span>
+            </label> Status
+            <input class="controls" type="file" name="thumbnail" id="thumbnail" placeholder="Ingrese imagen"><br>
+            <input class="btn btn-dark rounded-0 mb-3" type="submit" value="Cargar">
+        </form>
+    </div>
+</div>
+<script src="/socket.io/socket.io.min.js"></script>
+<script src="/static/js/realTimeProducts.js"></script>
+<script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js "></script>

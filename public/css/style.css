@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../images/fondo.jpg');
+}
+
+.form-product {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-product h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-product p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-product a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-product a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-product .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+h4 {
+  text-align: center;
+}
+
+/* ----------- check ------------- */
+
+
+.switch input
+{
+  display: none;
+}
+
+.switch
+{
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  margin: 4px;
+  transform: translateY(50%);
+  position: relative;
+}
+
+.slider
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  box-shadow: 0 0 0 2px red, 0 0 4px red;
+  cursor: pointer;
+  border: 4px solid transparent;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.slider:before
+{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  border-radius: 30px;
+  transform: translateX(-30px);
+  transition: 0.2s;
+}
+
+input:checked + .slider:before
+{
+  transform: translateX(30px);
+  background-color: limegreen;
+}
+
+input:checked + .slider
+{
+  box-shadow: 0 0 0 2px limegreen, 0 0 8px limegreen;
+}
+
+.switch200 .slider:before
+{
+  width: 200%;
+  transform: translateX(-82px);
+}
+
+.switch200 input:checked + .slider:before
+{
+  background-color: red;
+}
+
+.switch200 input:checked + .slider
+{
+  box-shadow: 0 0 0 2px red, 0 0 8px red;
+}
